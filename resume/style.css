@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'TT Commons';
+    src: url('fonts/tt-commons/TTCommons-Regular.woff2') format('woff2'),
+         url('fonts/tt-commons/TTCommons-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Redcollar';
+    src: url('fonts/redcollar/Redcollar.woff2') format('woff2'),
+         url('fonts/redcollar/Redcollar.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.center{
+    max-width: 1440px;
+    margin: 40px auto 0 auto;
+    position: relative;
+}
+
+.logo_rc{
+    width: 245px;
+    height: 16px;
+    position: absolute;
+    right: 40px;
+}
+
+.arrow{
+    margin: 0 4px;
+}
+
+.preview{
+    width: 322px;
+    position: absolute;
+    left: 40px;
+}
+
+.preview__avatar{
+    width: 100%;
+    height: 355px;
+}
+
+.my_description{
+    width: 322px;
+    height: 454px;
+    background-color: #F51B1B;
+    border-radius: 24px 24px 0px 0px;
+    position: absolute;
+    top: 326px;
+}
+
+.my_description__red_arrow{
+    width: 60px;
+    height: 18px;
+    position: absolute;
+    top: -18px;
+    left: 131px;
+}
+
+.my_description__name{
+    font-family: 'Redcollar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 40px 0 0 24px;
+}
+
+.my_description__info{
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 8px 0 0 24px;
+}
+
+
+.list-contact__item{
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin:0 0 20px 10px;
+}
+
+
+.list-contact__item:nth-child(1){
+    list-style-image: url(img/phone-call.png);
+}
+
+.list-contact__item:nth-child(2){
+    list-style-image: url(img/email.png);
+}
+
+.list-contact__item:nth-child(3){
+    list-style-image: url(img/tg.png);
+}
+
+.list-contact__item:nth-child(4){
+    list-style-image: url(img/github.png);
+}
+
+.summary{
+    min-width: 590px;
+    max-width: 690px;
+    position: relative;
+    margin-left:393px;
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+
+.facts{
+    position: relative;
+    width: 1006px;
+    height: 699px;
+    border: 1px solid #FFFFFF;
+    margin: 33px 0 50px 394px;
+}
+
+.facts__arrow{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: -1px;
+    left: 56px;
+}
+
+.paragraph{
+    display: flex;
+}
+
+.paragraph_first{
+    margin-top: 20px;
+}
+
+.paragraph__title{
+    font-family: 'Redcollar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 27px 0 0 27px;
+    display: inline-block;
+    width: 124px;
+}
+
+.my_skills{
+    margin: 27px 0 20px 72px;
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+
+.my_skills__definition{
+    opacity: 0.4;
+}
+
+.my_hard-skills{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 27px 0 20px 72px;
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding: 0;
+}
+
+.my_hard-skills__item{
+    margin-right: 32px;
+}
+
+hr{
+    width: 930px;
+    margin-left: 27px;
+    opacity: 0.4;
+}

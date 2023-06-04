@@ -1,0 +1,95 @@
+@media (min-width: 360px) and (max-width: 575px) { 
+                         
+    *{                  
+        margin: 0;
+    }
+
+    .logo_rc{
+        left: 0;
+    }
+
+    .center{
+        width: 320px;
+        margin: 40px auto 0 auto;
+    }
+
+    .preview{
+        width: 320px;
+        top: 90px;
+        left: 0;
+    }
+
+    .my_description{
+        width: 320px;
+        height: 288px;
+    }
+
+    .summary__mobile-hidden{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .paragraph{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .main{
+        width: 320px;
+        position: absolute;
+        top: 740px;
+    }
+
+    .facts{
+        position: relative;
+        width: 320px;
+        height: auto;
+        margin: 25px auto 30px auto;
+    }
+
+    .summary{
+        position: relative;
+        min-width: 0;
+        width: 320px;
+        margin: 0 auto 0 auto;
+    }
+
+    .my_skills{
+        display: inline-block;
+        width: 288px;
+        margin: 16px 0 0 28px;
+    }
+
+    .my_hard-skills{
+        width: 300px;
+        box-sizing: content-box;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-left: 27px;
+        margin-top: 16px;
+    }
+
+    .my_hard-skills__item{
+        margin: 0 16px 10px 0;
+    }
+
+    hr{
+        width: 288px;
+        margin: 24px 0 0 16px;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) { /*для себя(у меня ноутбук), хочу, чтоб красиво смотрелось*/
+    .summary{
+        width: 640px;
+    }
+
+    .facts{
+        width: 906px;
+    }
+
+    hr{
+        width: 830px;
+    }
+}
